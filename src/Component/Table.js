@@ -117,7 +117,7 @@ function Test() {
         return (
           <>
             <Switch
-              checked={record.status == "Active"}
+              defaultChecked={record.status == "Active"}
               //   onChange={
               //     handleSwitchChange
               //     // handle status update logic here
